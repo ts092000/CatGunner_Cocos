@@ -1,0 +1,94 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "Enemy8Attack",
+    "_objFlags": 0,
+    "__editorExtras__": {
+      "embeddedPlayerGroups": []
+    },
+    "_native": "",
+    "sample": 60,
+    "speed": 0.75,
+    "wrapMode": 1,
+    "enableTrsBlending": false,
+    "_duration": 0.26666666666666666,
+    "_hash": 500763545,
+    "_tracks": [
+      {
+        "__id__": 1
+      }
+    ],
+    "_exoticAnimation": null,
+    "_events": [],
+    "_embeddedPlayers": []
+  },
+  {
+    "__type__": "cc.animation.ObjectTrack",
+    "_binding": {
+      "__type__": "cc.animation.TrackBinding",
+      "path": {
+        "__id__": 2
+      },
+      "proxy": null
+    },
+    "_channel": {
+      "__id__": 4
+    }
+  },
+  {
+    "__type__": "cc.animation.TrackPath",
+    "_paths": [
+      {
+        "__id__": 3
+      },
+      "spriteFrame"
+    ]
+  },
+  {
+    "__type__": "cc.animation.ComponentPath",
+    "component": "cc.Sprite"
+  },
+  {
+    "__type__": "cc.animation.Channel",
+    "_curve": {
+      "__id__": 5
+    }
+  },
+  {
+    "__type__": "cc.ObjectCurve",
+    "_times": [
+      0,
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25
+    ],
+    "_values": [
+      {
+        "__uuid__": "f5b823f8-90e6-4717-941e-6f86ddf36b51@f9941",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "367ba2ab-2419-40b6-95dd-880c9beb7fcb@f9941",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "f596a503-8c47-4e17-91fb-55dd885e475e@f9941",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "3faaa054-a155-4519-b539-3f49506f5912@f9941",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "f596a503-8c47-4e17-91fb-55dd885e475e@f9941",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "f5b823f8-90e6-4717-941e-6f86ddf36b51@f9941",
+        "__expectedType__": "cc.SpriteFrame"
+      }
+    ]
+  }
+]

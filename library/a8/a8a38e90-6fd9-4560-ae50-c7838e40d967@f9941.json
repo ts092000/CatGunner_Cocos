@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Layer 163",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 37,
+      "height": 39
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 37,
+      "height": 39
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -18.5,
+        -19.5,
+        0,
+        18.5,
+        -19.5,
+        0,
+        -18.5,
+        19.5,
+        0,
+        18.5,
+        19.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        39,
+        37,
+        39,
+        0,
+        0,
+        37,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -18.5,
+        "y": -19.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 18.5,
+        "y": 19.5,
+        "z": 0
+      }
+    },
+    "texture": "a8a38e90-6fd9-4560-ae50-c7838e40d967@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

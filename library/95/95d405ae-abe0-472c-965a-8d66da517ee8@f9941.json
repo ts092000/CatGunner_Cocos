@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "endless_btn-sheet0",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 104,
+      "height": 42
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 104,
+      "height": 42
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -52,
+        -21,
+        0,
+        52,
+        -21,
+        0,
+        -52,
+        21,
+        0,
+        52,
+        21,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        42,
+        104,
+        42,
+        0,
+        0,
+        104,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -52,
+        "y": -21,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 52,
+        "y": 21,
+        "z": 0
+      }
+    },
+    "texture": "95d405ae-abe0-472c-965a-8d66da517ee8@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

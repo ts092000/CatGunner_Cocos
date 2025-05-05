@@ -1,0 +1,57 @@
+{
+  "__version__": "1.0.4",
+  "general": {
+    "designResolution": {
+      "width": 900,
+      "height": 600,
+      "fitHeight": true
+    }
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "Enemy"
+      },
+      {
+        "index": 2,
+        "name": "Player"
+      },
+      {
+        "index": 3,
+        "name": "Wall"
+      },
+      {
+        "index": 4,
+        "name": "Obstacle"
+      },
+      {
+        "index": 5,
+        "name": "Bullet"
+      },
+      {
+        "index": 6,
+        "name": "Reward"
+      },
+      {
+        "index": 7,
+        "name": "Wall2"
+      },
+      {
+        "index": 8,
+        "name": "BulletEnemy"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 1,
+      "1": 32,
+      "2": 472,
+      "3": 4,
+      "4": 36,
+      "5": 18,
+      "6": 4,
+      "7": 4,
+      "8": 4
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ver": "2.0.3",
+  "importer": "animation-clip",
+  "imported": true,
+  "uuid": "44e45b0c-1d43-4cf5-b3ab-b9f4c14cbcda",
+  "files": [
+    ".cconb"
+  ],
+  "subMetas": {},
+  "userData": {
+    "name": "PlayBtnAnim"
+  }
+}

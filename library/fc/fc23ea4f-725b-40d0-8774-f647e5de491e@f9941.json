@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Layer 1376",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 22,
+      "height": 8
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 22,
+      "height": 8
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -11,
+        -4,
+        0,
+        11,
+        -4,
+        0,
+        -11,
+        4,
+        0,
+        11,
+        4,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        8,
+        22,
+        8,
+        0,
+        0,
+        22,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -11,
+        "y": -4,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 11,
+        "y": 4,
+        "z": 0
+      }
+    },
+    "texture": "fc23ea4f-725b-40d0-8774-f647e5de491e@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

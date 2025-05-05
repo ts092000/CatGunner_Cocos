@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Layer 1542",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 8,
+      "height": 6
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 8,
+      "height": 6
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -4,
+        -3,
+        0,
+        4,
+        -3,
+        0,
+        -4,
+        3,
+        0,
+        4,
+        3,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        6,
+        8,
+        6,
+        0,
+        0,
+        8,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -4,
+        "y": -3,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 4,
+        "y": 3,
+        "z": 0
+      }
+    },
+    "texture": "e2cc9e6c-23ba-4dd8-82ba-517c812f9b83@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Layer 234",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 114,
+      "height": 122
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 114,
+      "height": 122
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -57,
+        -61,
+        0,
+        57,
+        -61,
+        0,
+        -57,
+        61,
+        0,
+        57,
+        61,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        122,
+        114,
+        122,
+        0,
+        0,
+        114,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -57,
+        "y": -61,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 57,
+        "y": 61,
+        "z": 0
+      }
+    },
+    "texture": "2228b774-6cb0-4ade-bc70-37c481ce1d81@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

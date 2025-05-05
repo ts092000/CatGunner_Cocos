@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Layer 1299",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 36,
+      "height": 27
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 36,
+      "height": 27
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -18,
+        -13.5,
+        0,
+        18,
+        -13.5,
+        0,
+        -18,
+        13.5,
+        0,
+        18,
+        13.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        27,
+        36,
+        27,
+        0,
+        0,
+        36,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -18,
+        "y": -13.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 18,
+        "y": 13.5,
+        "z": 0
+      }
+    },
+    "texture": "89e220d6-e2cd-4ba9-b450-f1592d59b7b0@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

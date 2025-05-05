@@ -1,0 +1,13 @@
+{
+  "ver": "2.0.3",
+  "importer": "animation-clip",
+  "imported": true,
+  "uuid": "dfb26b47-4d5c-435d-b547-9ae6ca48f1ca",
+  "files": [
+    ".cconb"
+  ],
+  "subMetas": {},
+  "userData": {
+    "name": "SpawnPlayerEffect"
+  }
+}

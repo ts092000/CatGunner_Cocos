@@ -1,0 +1,109 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "BossAttack1",
+    "_objFlags": 0,
+    "__editorExtras__": {
+      "embeddedPlayerGroups": []
+    },
+    "_native": "",
+    "sample": 60,
+    "speed": 0.5,
+    "wrapMode": 1,
+    "enableTrsBlending": false,
+    "_duration": 0.48333333333333334,
+    "_hash": 500763545,
+    "_tracks": [
+      {
+        "__id__": 1
+      }
+    ],
+    "_exoticAnimation": null,
+    "_events": [],
+    "_embeddedPlayers": []
+  },
+  {
+    "__type__": "cc.animation.ObjectTrack",
+    "_binding": {
+      "__type__": "cc.animation.TrackBinding",
+      "path": {
+        "__id__": 2
+      },
+      "proxy": null
+    },
+    "_channel": {
+      "__id__": 4
+    }
+  },
+  {
+    "__type__": "cc.animation.TrackPath",
+    "_paths": [
+      {
+        "__id__": 3
+      },
+      "spriteFrame"
+    ]
+  },
+  {
+    "__type__": "cc.animation.ComponentPath",
+    "component": "cc.Sprite"
+  },
+  {
+    "__type__": "cc.animation.Channel",
+    "_curve": {
+      "__id__": 5
+    }
+  },
+  {
+    "__type__": "cc.ObjectCurve",
+    "_times": [
+      0,
+      0.05,
+      0.1,
+      0.15,
+      0.26666666666666666,
+      0.31666666666666665,
+      0.36666666666666664,
+      0.4166666666666667,
+      0.4666666666666667
+    ],
+    "_values": [
+      {
+        "__uuid__": "f68c9392-ef6f-441c-b498-39219c6ad5ad@f9941",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "0c4fbab6-2671-4c4c-8fca-01f7f556f85f@f9941",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "b5237483-fbbc-4e75-85a7-4fc3bd0e05d3@f9941",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "d8c1006f-627d-4270-90a1-02733544bbc9@f9941",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "b5237483-fbbc-4e75-85a7-4fc3bd0e05d3@f9941",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "57da6d4f-4d1d-40ac-a999-92f57733ca76@f9941",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "11ca8476-92d1-4ba6-be4d-acf4f2b500e2@f9941",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "40664178-d74f-41f7-92ad-7ade80d5a502@f9941",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "f68c9392-ef6f-441c-b498-39219c6ad5ad@f9941",
+        "__expectedType__": "cc.SpriteFrame"
+      }
+    ]
+  }
+]

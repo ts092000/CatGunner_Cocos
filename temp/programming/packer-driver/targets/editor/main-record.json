@@ -1,0 +1,2876 @@
+{
+  "modules": {
+    "cce:/internal/x/cc": {
+      "mTimestamp": 5235.224541001022,
+      "chunkId": "cee638a986ad8fae09398db255647defcaa6612a",
+      "imports": [
+        {
+          "value": "cce:/internal/x/cc-fu/base",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 14
+            },
+            "end": {
+              "line": 1,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/gfx-webgl",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 14
+            },
+            "end": {
+              "line": 2,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/gfx-webgl2",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 14
+            },
+            "end": {
+              "line": 3,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/gfx-empty",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 14
+            },
+            "end": {
+              "line": 4,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/3d",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 14
+            },
+            "end": {
+              "line": 5,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/animation",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 14
+            },
+            "end": {
+              "line": 6,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/skeletal-animation",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 14
+            },
+            "end": {
+              "line": 7,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/2d",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/sorting",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 14
+            },
+            "end": {
+              "line": 9,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/ui",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 14
+            },
+            "end": {
+              "line": 10,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/particle",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 14
+            },
+            "end": {
+              "line": 11,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/particle-2d",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 14
+            },
+            "end": {
+              "line": 12,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-framework",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 14
+            },
+            "end": {
+              "line": 13,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-2d-framework",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 14
+            },
+            "end": {
+              "line": 14,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/intersection-2d",
+          "resolved": "__unresolved_14",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 14
+            },
+            "end": {
+              "line": 15,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/primitive",
+          "resolved": "__unresolved_15",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 14
+            },
+            "end": {
+              "line": 16,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/profiler",
+          "resolved": "__unresolved_16",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 14
+            },
+            "end": {
+              "line": 17,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/geometry-renderer",
+          "resolved": "__unresolved_17",
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 14
+            },
+            "end": {
+              "line": 18,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/audio",
+          "resolved": "__unresolved_18",
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 14
+            },
+            "end": {
+              "line": 19,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/video",
+          "resolved": "__unresolved_19",
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 14
+            },
+            "end": {
+              "line": 20,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/xr",
+          "resolved": "__unresolved_20",
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 14
+            },
+            "end": {
+              "line": 21,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/light-probe",
+          "resolved": "__unresolved_21",
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 14
+            },
+            "end": {
+              "line": 22,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/terrain",
+          "resolved": "__unresolved_22",
+          "loc": {
+            "start": {
+              "line": 23,
+              "column": 14
+            },
+            "end": {
+              "line": 23,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/webview",
+          "resolved": "__unresolved_23",
+          "loc": {
+            "start": {
+              "line": 24,
+              "column": 14
+            },
+            "end": {
+              "line": 24,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/tween",
+          "resolved": "__unresolved_24",
+          "loc": {
+            "start": {
+              "line": 25,
+              "column": 14
+            },
+            "end": {
+              "line": 25,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/tiled-map",
+          "resolved": "__unresolved_25",
+          "loc": {
+            "start": {
+              "line": 26,
+              "column": 14
+            },
+            "end": {
+              "line": 26,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/spine",
+          "resolved": "__unresolved_26",
+          "loc": {
+            "start": {
+              "line": 27,
+              "column": 14
+            },
+            "end": {
+              "line": 27,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/dragon-bones",
+          "resolved": "__unresolved_27",
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 14
+            },
+            "end": {
+              "line": 28,
+              "column": 50
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/custom-pipeline",
+          "resolved": "__unresolved_28",
+          "loc": {
+            "start": {
+              "line": 29,
+              "column": 14
+            },
+            "end": {
+              "line": 29,
+              "column": 53
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/base"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl2"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/gfx-empty"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/3d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/animation"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/skeletal-animation"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/sorting"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/ui"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/particle"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/particle-2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-framework"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-framework"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/intersection-2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/primitive"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/profiler"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/geometry-renderer"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/audio"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/video"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/xr"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/light-probe"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/terrain"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/webview"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/tween"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/tiled-map"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/spine"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/dragon-bones"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/custom-pipeline"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/x/prerequisite-imports": {
+      "mTimestamp": 10190.22849999927,
+      "chunkId": "86c3e69ab73fb474eb95ccfbe3beb8dccab88e35",
+      "imports": [
+        {
+          "value": "file:///Applications/Cocos/Creator/3.7.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 35
+            },
+            "end": {
+              "line": 5,
+              "column": 183
+            }
+          }
+        },
+        {
+          "value": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/DataGame/Constants.ts",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 199
+            },
+            "end": {
+              "line": 5,
+              "column": 298
+            }
+          }
+        },
+        {
+          "value": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/BossController.ts",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 314
+            },
+            "end": {
+              "line": 5,
+              "column": 414
+            }
+          }
+        },
+        {
+          "value": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/BulletBossController.ts",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 430
+            },
+            "end": {
+              "line": 5,
+              "column": 536
+            }
+          }
+        },
+        {
+          "value": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/BulletController.ts",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 552
+            },
+            "end": {
+              "line": 5,
+              "column": 654
+            }
+          }
+        },
+        {
+          "value": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/BulletEnemyController.ts",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 670
+            },
+            "end": {
+              "line": 5,
+              "column": 777
+            }
+          }
+        },
+        {
+          "value": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/EnemyController.ts",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 793
+            },
+            "end": {
+              "line": 5,
+              "column": 894
+            }
+          }
+        },
+        {
+          "value": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/GameController.ts",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 910
+            },
+            "end": {
+              "line": 5,
+              "column": 1010
+            }
+          }
+        },
+        {
+          "value": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/GameModel.ts",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1026
+            },
+            "end": {
+              "line": 5,
+              "column": 1121
+            }
+          }
+        },
+        {
+          "value": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/GameView.ts",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1137
+            },
+            "end": {
+              "line": 5,
+              "column": 1231
+            }
+          }
+        },
+        {
+          "value": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/HostageController.ts",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1247
+            },
+            "end": {
+              "line": 5,
+              "column": 1350
+            }
+          }
+        },
+        {
+          "value": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/JoystickController.ts",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1366
+            },
+            "end": {
+              "line": 5,
+              "column": 1470
+            }
+          }
+        },
+        {
+          "value": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/ObstacleController.ts",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1486
+            },
+            "end": {
+              "line": 5,
+              "column": 1590
+            }
+          }
+        },
+        {
+          "value": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/PlayerController.ts",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1606
+            },
+            "end": {
+              "line": 5,
+              "column": 1708
+            }
+          }
+        },
+        {
+          "value": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/PoolObject.ts",
+          "resolved": "__unresolved_14",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1724
+            },
+            "end": {
+              "line": 5,
+              "column": 1820
+            }
+          }
+        },
+        {
+          "value": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/SpikeController.ts",
+          "resolved": "__unresolved_15",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1836
+            },
+            "end": {
+              "line": 5,
+              "column": 1937
+            }
+          }
+        },
+        {
+          "value": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/GameCenter/DataUser.ts",
+          "resolved": "__unresolved_16",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1953
+            },
+            "end": {
+              "line": 5,
+              "column": 2053
+            }
+          }
+        },
+        {
+          "value": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/GameCenter/StoreAPI.ts",
+          "resolved": "__unresolved_17",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2069
+            },
+            "end": {
+              "line": 5,
+              "column": 2169
+            }
+          }
+        },
+        {
+          "value": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Loading/LoadingController.ts",
+          "resolved": "__unresolved_18",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2185
+            },
+            "end": {
+              "line": 5,
+              "column": 2291
+            }
+          }
+        },
+        {
+          "value": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Menu/MenuController.ts",
+          "resolved": "__unresolved_19",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2307
+            },
+            "end": {
+              "line": 5,
+              "column": 2407
+            }
+          }
+        },
+        {
+          "value": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Menu/MenuModel.ts",
+          "resolved": "__unresolved_20",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2423
+            },
+            "end": {
+              "line": 5,
+              "column": 2518
+            }
+          }
+        },
+        {
+          "value": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Menu/MenuView.ts",
+          "resolved": "__unresolved_21",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2534
+            },
+            "end": {
+              "line": 5,
+              "column": 2628
+            }
+          }
+        },
+        {
+          "value": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Splash/SplashController.ts",
+          "resolved": "__unresolved_22",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2644
+            },
+            "end": {
+              "line": 5,
+              "column": 2748
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Applications/Cocos/Creator/3.7.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/DataGame/Constants.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/BossController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/BulletBossController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/BulletController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/BulletEnemyController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/EnemyController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/GameController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/GameModel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/GameView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/HostageController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/JoystickController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/ObstacleController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/PlayerController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/PoolObject.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/SpikeController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/GameCenter/DataUser.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/GameCenter/StoreAPI.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Loading/LoadingController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Menu/MenuController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Menu/MenuModel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Menu/MenuView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Splash/SplashController.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Applications/Cocos/Creator/3.7.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": {
+      "mTimestamp": {
+        "mtime": 1691996108000,
+        "uuid": "b2bd1fa7-8d7c-49c5-a158-df29a6d3a594"
+      },
+      "chunkId": "2149071586fb5ee96d3e15df3a10b119fd0c3790",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 220
+            },
+            "end": {
+              "line": 1,
+              "column": 224
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/DataGame/Constants.ts": {
+      "mTimestamp": {
+        "mtime": 1746471552168.1082,
+        "uuid": "87764ee4-b1b7-433b-9d3b-f3d0c9440a0b"
+      },
+      "chunkId": "b2de4eb44adfb7af5f20a9ee7c702aaee4958e7e",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/BossController.ts": {
+      "mTimestamp": {
+        "mtime": 1746471552168.234,
+        "uuid": "610b8f0c-7730-4f6c-8c62-a507b3753db1"
+      },
+      "chunkId": "beaea8f7af65aeda9a332fb115401b73c056dda1",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 112
+            },
+            "end": {
+              "line": 1,
+              "column": 116
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/BulletBossController.ts": {
+      "mTimestamp": {
+        "mtime": 1746471552168.3118,
+        "uuid": "5924c467-9fba-486a-be8b-5750d6c5d4db"
+      },
+      "chunkId": "5e3e5cdea58c9c497ad048f3913982da7b94db80",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 111
+            },
+            "end": {
+              "line": 1,
+              "column": 115
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/BulletController.ts": {
+      "mTimestamp": {
+        "mtime": 1746471552168.3872,
+        "uuid": "6aece87f-0827-4d07-8558-69e916d13d9d"
+      },
+      "chunkId": "16a9c3e468b471aae438d7db2e3aa7280e6e706e",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 80
+            },
+            "end": {
+              "line": 1,
+              "column": 84
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/BulletEnemyController.ts": {
+      "mTimestamp": {
+        "mtime": 1746471552168.4675,
+        "uuid": "7cbdcf6b-9621-4567-b587-a6a8358a4871"
+      },
+      "chunkId": "70e9e0f3ee35853e36c8506b014a25a9d8526d88",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 69
+            },
+            "end": {
+              "line": 1,
+              "column": 73
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/EnemyController.ts": {
+      "mTimestamp": {
+        "mtime": 1746471552168.535,
+        "uuid": "7fad3818-99fb-4452-97cc-c6a2cf0ae073"
+      },
+      "chunkId": "324525060fb92df20f3405c022af38bb24b123ca",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 136
+            },
+            "end": {
+              "line": 1,
+              "column": 140
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/GameController.ts": {
+      "mTimestamp": {
+        "mtime": 1746475237292.0767,
+        "uuid": "bc0e4144-9fa8-4640-8ecd-14b5c1a741ee"
+      },
+      "chunkId": "6d507eb9f2e409161357f9ef7fb50314a7e324f3",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 320
+            },
+            "end": {
+              "line": 1,
+              "column": 324
+            }
+          }
+        },
+        {
+          "value": "./GameModel",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 26
+            },
+            "end": {
+              "line": 2,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "./GameView",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 25
+            },
+            "end": {
+              "line": 3,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./PoolObject",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 27
+            },
+            "end": {
+              "line": 4,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "../DataGame/Constants",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 26
+            },
+            "end": {
+              "line": 5,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "./EnemyController",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 32
+            },
+            "end": {
+              "line": 6,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "./BulletController",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 33
+            },
+            "end": {
+              "line": 7,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "./PlayerController",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 33
+            },
+            "end": {
+              "line": 8,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "../Loading/LoadingController",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 34
+            },
+            "end": {
+              "line": 9,
+              "column": 64
+            }
+          }
+        },
+        {
+          "value": "./BulletEnemyController",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 38
+            },
+            "end": {
+              "line": 10,
+              "column": 63
+            }
+          }
+        },
+        {
+          "value": "./BossController",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 31
+            },
+            "end": {
+              "line": 11,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "./BulletBossController",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 37
+            },
+            "end": {
+              "line": 12,
+              "column": 61
+            }
+          }
+        },
+        {
+          "value": "./HostageController",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 34
+            },
+            "end": {
+              "line": 13,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "../GameCenter/StoreAPI",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 25
+            },
+            "end": {
+              "line": 14,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "../GameCenter/DataUser",
+          "resolved": "__unresolved_14",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 25
+            },
+            "end": {
+              "line": 15,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "./ObstacleController",
+          "resolved": "__unresolved_15",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 35
+            },
+            "end": {
+              "line": 16,
+              "column": 57
+            }
+          }
+        },
+        {
+          "value": "./SpikeController",
+          "resolved": "__unresolved_16",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 32
+            },
+            "end": {
+              "line": 17,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/GameModel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/GameView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/PoolObject.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/DataGame/Constants.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/EnemyController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/BulletController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/PlayerController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Loading/LoadingController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/BulletEnemyController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/BossController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/BulletBossController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/HostageController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/GameCenter/StoreAPI.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/GameCenter/DataUser.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/ObstacleController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/SpikeController.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/code-quality/cr.mjs": {
+      "mTimestamp": 1746476565723,
+      "chunkId": "84741ad843cea9a440c5d8c2d379669b6551400d",
+      "imports": [],
+      "type": "esm",
+      "resolutions": []
+    },
+    "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/GameModel.ts": {
+      "mTimestamp": {
+        "mtime": 1746471552168.7996,
+        "uuid": "18abe6a1-7031-4e3b-b47b-104d048d7593"
+      },
+      "chunkId": "f7bd04df8f1a1cf3f1d2c75b5193e1ad3ad7f37c",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 165
+            },
+            "end": {
+              "line": 1,
+              "column": 169
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/GameView.ts": {
+      "mTimestamp": {
+        "mtime": 1746471552169.041,
+        "uuid": "b8a57e14-eec4-469f-b4fc-5539b9cbe721"
+      },
+      "chunkId": "70836e9ce1e3009fa17aff81838037ae86ea6bcc",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 126
+            },
+            "end": {
+              "line": 1,
+              "column": 130
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/PoolObject.ts": {
+      "mTimestamp": {
+        "mtime": 1746471552169.4504,
+        "uuid": "cd6cfea8-5f12-44c2-aa3f-789551ffccf2"
+      },
+      "chunkId": "b4b0b8b3abb490e9a7739dcd1b669c370a5f94cf",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 54
+            },
+            "end": {
+              "line": 1,
+              "column": 58
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/PlayerController.ts": {
+      "mTimestamp": {
+        "mtime": 1746471552169.3645,
+        "uuid": "504739b8-edcb-4cd3-8bf5-32458f19cf57"
+      },
+      "chunkId": "ebf74174a8d34e1bacc050971b9b318c6d891d25",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 153
+            },
+            "end": {
+              "line": 1,
+              "column": 157
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Loading/LoadingController.ts": {
+      "mTimestamp": {
+        "mtime": 1746475192999.0269,
+        "uuid": "268b4f83-88c4-496e-8b8f-4a5b2a6efe94"
+      },
+      "chunkId": "a8acaaa7ae386837a8b9319a3f8f5fc9a5b30894",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 80
+            },
+            "end": {
+              "line": 1,
+              "column": 84
+            }
+          }
+        },
+        {
+          "value": "../DataGame/Constants",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 26
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/DataGame/Constants.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/HostageController.ts": {
+      "mTimestamp": {
+        "mtime": 1746471552169.1165,
+        "uuid": "9a476f3b-7edf-4a14-840d-ef64a40d9a8a"
+      },
+      "chunkId": "f40610cd56ce5b7d11875936a162c703a048446e",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 128
+            },
+            "end": {
+              "line": 1,
+              "column": 132
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/GameCenter/StoreAPI.ts": {
+      "mTimestamp": {
+        "mtime": 1746471552169.7498,
+        "uuid": "bc348e09-7b4b-4f7b-beaf-40d2a7b39bb4"
+      },
+      "chunkId": "a4329d6ff4d910eb669617231ee71def135f146a",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/GameCenter/DataUser.ts": {
+      "mTimestamp": {
+        "mtime": 1746471552169.6707,
+        "uuid": "12ae5d91-0c11-48d3-bc3f-9e9fd76e0f02"
+      },
+      "chunkId": "61e574d92c5809a3dc102d62c9d1d41470b75bff",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/ObstacleController.ts": {
+      "mTimestamp": {
+        "mtime": 1746471552169.269,
+        "uuid": "03a2487e-4b66-4128-80b3-a0f405caf78b"
+      },
+      "chunkId": "c6030b64507b5f8b9cafb06b8372f01f3f8cdd04",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 56
+            },
+            "end": {
+              "line": 1,
+              "column": 60
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/SpikeController.ts": {
+      "mTimestamp": {
+        "mtime": 1746471552169.5393,
+        "uuid": "391ad40e-a857-45cb-bf23-02600a089a5b"
+      },
+      "chunkId": "184c51f7579853327cb08410afdb815bd83bf887",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 70
+            },
+            "end": {
+              "line": 1,
+              "column": 74
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/JoystickController.ts": {
+      "mTimestamp": {
+        "mtime": 1746471552169.1926,
+        "uuid": "3cddf788-7d1b-4466-b3e8-74d518205295"
+      },
+      "chunkId": "2b177bb836762960dca3fabe9813b2e2f597e656",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 82
+            },
+            "end": {
+              "line": 1,
+              "column": 86
+            }
+          }
+        },
+        {
+          "value": "./PlayerController",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 33
+            },
+            "end": {
+              "line": 2,
+              "column": 53
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Game/PlayerController.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Menu/MenuController.ts": {
+      "mTimestamp": {
+        "mtime": 1746471552170.0676,
+        "uuid": "400f342d-ae06-4abb-9be4-8c90122450a0"
+      },
+      "chunkId": "b326935cf5c0adac5a1e4b202cdb7c4c5ce7644c",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 67
+            },
+            "end": {
+              "line": 1,
+              "column": 71
+            }
+          }
+        },
+        {
+          "value": "./MenuModel",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 26
+            },
+            "end": {
+              "line": 2,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "./MenuView",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 25
+            },
+            "end": {
+              "line": 3,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "../DataGame/Constants",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 26
+            },
+            "end": {
+              "line": 4,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "../Loading/LoadingController",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 34
+            },
+            "end": {
+              "line": 5,
+              "column": 64
+            }
+          }
+        },
+        {
+          "value": "../GameCenter/DataUser",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 25
+            },
+            "end": {
+              "line": 7,
+              "column": 49
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Menu/MenuModel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Menu/MenuView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/DataGame/Constants.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Loading/LoadingController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/GameCenter/DataUser.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Menu/MenuModel.ts": {
+      "mTimestamp": {
+        "mtime": 1746471552170.145,
+        "uuid": "0addb690-d1b1-421f-bab0-0400cdc00f7b"
+      },
+      "chunkId": "660c904e06d464c604cba0911b34c7d406b08a6f",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 68
+            },
+            "end": {
+              "line": 1,
+              "column": 72
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Menu/MenuView.ts": {
+      "mTimestamp": {
+        "mtime": 1746471552170.2156,
+        "uuid": "96d11ec9-9de8-408e-9994-fb6817c0ef0a"
+      },
+      "chunkId": "824f40aa371049817a8c437b028beac43aba8a25",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 64
+            },
+            "end": {
+              "line": 1,
+              "column": 68
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/Splash/SplashController.ts": {
+      "mTimestamp": {
+        "mtime": 1746471552170.3691,
+        "uuid": "d46e683a-79d8-486e-9b52-3c7744824f6e"
+      },
+      "chunkId": "96025a010a63c802ae2167d894d94d281707c7fa",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 69
+            },
+            "end": {
+              "line": 1,
+              "column": 73
+            }
+          }
+        },
+        {
+          "value": "../DataGame/Constants",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 26
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/ADMIN/Desktop/CatGunner_Github/CatGunner_Cocos/assets/Scripts/DataGame/Constants.ts"
+          },
+          "messages": []
+        }
+      ]
+    }
+  }
+}

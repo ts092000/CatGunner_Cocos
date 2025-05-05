@@ -1,0 +1,10 @@
+{
+  "name": "CatGunner",
+  "uuid": "9f31989f-ed91-4009-bb76-12299d44fe7a",
+  "creator": {
+    "version": "3.7.4"
+  },
+  "dependencies": {
+    "@onechaintech/gamesdk-dev": "^0.0.35"
+  }
+}

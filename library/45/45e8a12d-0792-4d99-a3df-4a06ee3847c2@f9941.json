@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Layer 565",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 41,
+      "height": 46
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 41,
+      "height": 46
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -20.5,
+        -23,
+        0,
+        20.5,
+        -23,
+        0,
+        -20.5,
+        23,
+        0,
+        20.5,
+        23,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        46,
+        41,
+        46,
+        0,
+        0,
+        41,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -20.5,
+        "y": -23,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 20.5,
+        "y": 23,
+        "z": 0
+      }
+    },
+    "texture": "45e8a12d-0792-4d99-a3df-4a06ee3847c2@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

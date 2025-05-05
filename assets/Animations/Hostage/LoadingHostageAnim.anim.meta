@@ -1,0 +1,13 @@
+{
+  "ver": "2.0.3",
+  "importer": "animation-clip",
+  "imported": true,
+  "uuid": "6ecfdfe4-f42e-40f7-810c-a0bac8bb0aa1",
+  "files": [
+    ".cconb"
+  ],
+  "subMetas": {},
+  "userData": {
+    "name": "LoadingHostageAnim"
+  }
+}

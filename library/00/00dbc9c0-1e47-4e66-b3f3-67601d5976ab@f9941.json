@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Layer 642",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 177,
+      "height": 107
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 177,
+      "height": 107
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -88.5,
+        -53.5,
+        0,
+        88.5,
+        -53.5,
+        0,
+        -88.5,
+        53.5,
+        0,
+        88.5,
+        53.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        107,
+        177,
+        107,
+        0,
+        0,
+        177,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -88.5,
+        "y": -53.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 88.5,
+        "y": 53.5,
+        "z": 0
+      }
+    },
+    "texture": "00dbc9c0-1e47-4e66-b3f3-67601d5976ab@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}
